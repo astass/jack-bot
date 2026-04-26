@@ -1,0 +1,9 @@
+waeris-jackbot:
+  admin:
+    settings:
+      enabled_label: "Включить Капитана Джека"
+      api_key_label: "Groq API Ключ"
+      user_id_label: "User ID Капитана (обычно 6)"
+      delay_label: "Задержка перед ответом (в секундах)"
+      tags_label: "Разрешенные теги (через запятую, например: humor,flood)"
+      prompt_label: "Системный промпт (Личность Джека)"
