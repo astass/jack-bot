@@ -1,0 +1,30 @@
+{
+    "name": "waeris/jack-bot",
+    "description": "Captain Jack Sparrow AI bot for Flarum 2.0",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Waeris",
+            "homepage": "https://waeris.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0.0-rc.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waeris\\JackBot\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Jack Bot",
+            "icon": {
+                "name": "fas fa-anchor",
+                "backgroundColor": "#24292e",
+                "color": "#fff"
+            }
+        }
+    }
+}
